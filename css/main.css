@@ -2,140 +2,137 @@
  * Estilos de tu proyecto
  */
 body{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    width: 100%;
-    margin: 0px;
-    color: white;
-    /* font-stretch: ultra-condensed; */
+  margin: 0px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
-#main{
-    /* position: fixed; */
-    width: 100%;
-    height: 82px;
-    background-color: #2c3e50;
-    font-size: 15px;
-    font-weight: bold;
+.navbar{
+  height: 12.5vh;
+  background-color: #2c3e50;
+  letter-spacing:0px;
+  font-size: 15px;
+  font-weight: 900;
 }
 .logo{
-    position:absolute;
-    top: 5px;
-    left: 150px;
-    font-size: x-large;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    /* font-weight: bold;  */
-    font-stretch: ultra-condensed;
+  position:absolute;
+  top: 1vh;
+  left: 10vw;
+  font-size: x-large;
+  font-weight: 900;
 }
-#mothership{
-    position: absolute;
-    top: 15px;
-    right: 150px;
+.mothership{
+  position: absolute;
+  top: 1.3vw;
+  right: 10vw;
 }
 .navegation{
-    display: inline;
-    left: 20px;
-    padding: 5px;
-    /* margin-top: 40px; */
-    vertical-align: center;
+  display: inline;
+  padding: 5px;
 }
-li{
-    vertical-align: top;
+.first, .third {
+  background-color:#18bc9c;
+  padding: 3.4em;
 }
- #first, #third {
-     background-color:#18bc9c;
-     padding: 3.4em;
-     /* font-size: 3em;  */
-    }
- #second, #fourth{
-    background-color:white;
-    color: #2c3e50;
-    padding: 4em;
-    font-size: normal;
-    font-weight: 400;
- }
- #fiveth{
-     background-color: #2c3e50;
-     padding: 6em;
- }
- #end{
-     background-color: #1a252f;
-     padding: 10px;
- }
- /* #button{
-    background-color: #18bc9c;
-    border: 1px solid white;
-    width: 200px;
-} */
-#head{
-    font-size: 1.75em;
-    margin-top: 5px;
+.second, .fourth{
+  background-color:white;
+  color: #2c3e50;
+  padding: 4em;
+  font-size: normal;
+  font-weight: 400;
 }
- h1{
-    font-size: 4.75em;
-    line-height: 4rem;
-    font-weight: 900;
+.man{
+  height: 240px;
+  width: 250px;
+  margin-top: 50px;
+  margin-bottom: -20px;
 }
- h2{
-    font-size: 3rem;
-    line-height: 2.5rem;
-    font-weight: 700;
-} 
-span{
-    color: #18bc9c;
+.main-title{
+  font-size: 4.75em;
+  line-height: 4rem;
+  font-weight: 900;
 }
-.img{
-    display: inline-block;
-    height: 235px;
-    width: 335.5px;
-    margin: 13px;
+.caption{
+  margin-top: 5px;
+  font-size: 1.75em;
 }
-#man{
-    margin-top: 50px;
-    margin-bottom: -20px;
-    height: 240px;
-    width: 250px;
+.titles{
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 700;
 }
-.text {
-    display: inline-block;
-    text-align: initial;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    font-size: 1.25rem;
-    font-weight: 300;
-    vertical-align: top;
+.img-portfolio{
+  display: inline-block;
+  height: 35vh;
+  width: 23vw;
+  margin: 13px;
+}
+.text-about {
+  display: inline-block;
+  height: auto;
+  width: 25vw;
+  margin: 10px;
+  vertical-align: top;
+  text-align: initial;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.btn-text-about{
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-top: 2vw;
+  color: white;
+  background-color: #18bc9c;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 .form{
-    width: 80%;
-    margin: 10px;
-    border: 1px solid white;
+  width: 80%;
+  margin: 10px;
+  border: 1px solid white;
 }
-.information{
-    display: inline-block;
-    margin: 10px;
-    width: 300px;
-    height: 10px;
-    padding: 10px;
+/* .btn{
+  display: none;
+  background-color: #18bc9c;
+} */
+.fiveth{
+  background-color: #2c3e50;
+  padding: 6em;
 }
-.icon{
-    border: 2px solid white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    color: white;
-     padding: 10px 5px 0px;
-    /*vertical-align: sub; */
+.informations{
+  display: inline-block;
+  width: 300px;
+  height: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.icons{
+  width: 30px;
+  height: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px 5px 0px;
+}
+.information-span{
+  color: #18bc9c;
+}
+.end{
+  height: 7vh;
+  padding: 10px;
+  background-color: #1a252f;
 }
 .star:after {
-    content:"after";
-    width:200px;
-    line-height:40px;
-    height:40px;
-    background:#ff0000;
-    position:absolute;
-    top:-40px;
-    left:0;
-    color:#FFF;
-    text-align:center
+  content:"after";
+  width:200px;
+  line-height:40px;
+  height:40px;
+  background:#ff0000;
+  position:absolute;
+  top:-40px;
+  left:0;
+  color:#FFF;
+  text-align:center
 }

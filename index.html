@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" 
     integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:400,700,900" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Freelancer - Start Bootstrap</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav id="main">
+    <nav class="navbar">
             <p class="logo">START BOOTSTRAP</p> 
-        <div id="mothership">
+        <div class="mothership">
             <ul> 
             <li class="navegation">PORTFOLIO</li>
             <li class="navegation">ABOUT</li>
@@ -22,63 +22,63 @@
             </ul>
         </div>
     </nav>
-    <section id="first">
-        <img id="man" src="assets/images/profile.png" alt="imagem de inicio">
-        <H1>START BOOTSTRAP</H1>
+    <section class="first">
+        <img class="man" src="assets/images/profile.png" alt="imagem de inicio">
+        <H1 class="main-title">START BOOTSTRAP</H1>
         <div class="star fas fa-star"></div>
-        <P id="head">Web Developer - Graphic Artist - User Experience Designer</P>
+        <P class="caption">Web Developer - Graphic Artist - User Experience Designer</P>
     </section>
-    <section id="second">
-        <h2>PORTFOLIO</h2>
+    <section class="second">
+        <h2 class="titles">PORTFOLIO</h2>
         <div class="star fas fa-star"></div><br>
-        <img class="img" src="assets/images/portfolio/cabin.png" alt="imagem da casinha">
-        <img class="img" src="assets/images/portfolio/cake.png" alt="imagem do bolo"> 
-        <img class="img" src="assets/images/portfolio/circus.png" alt="imagem da tenda">
-        <img class="img" src="assets/images/portfolio/game.png" alt="imagem do controle">
-        <img class="img" src="assets/images/portfolio/safe.png" alt="imagem do cofre"> 
-        <img class="img" src="assets/images/portfolio/submarine.png" alt="imagem do submarino">
+        <img class="img-portfolio" src="assets/images/portfolio/cabin.png" alt="imagem da casinha">
+        <img class="img-portfolio" src="assets/images/portfolio/cake.png" alt="imagem do bolo"> 
+        <img class="img-portfolio" src="assets/images/portfolio/circus.png" alt="imagem da tenda">
+        <img class="img-portfolio" src="assets/images/portfolio/game.png" alt="imagem do controle">
+        <img class="img-portfolio" src="assets/images/portfolio/safe.png" alt="imagem do cofre"> 
+        <img class="img-portfolio" src="assets/images/portfolio/submarine.png" alt="imagem do submarino">
     </section>
-    <section id="third">
-        <h2>ABOUT</h2>
+    <section class="third">
+        <h2 class="titles">ABOUT</h2>
         <div class="star fas fa-star"></div><br>
-        <div class="text">Freelancer is a free bootstrap theme created by Start Bootstrap.
+        <div class="text-about">Freelancer is a free bootstrap theme created by Start Bootstrap.
              The download includes the complete source files including HTML, CSS, 
              and JavaScript as well as optional LESS stylesheets for easy customization.</div>
-        <div class="text"> Whether you're a student looking to showcase your work, 
+        <div class="text-about"> Whether you're a student looking to showcase your work, 
              a professional looking to attract clients, or a graphic artist looking to share your projects,
              this template is the perfect starting point!</div><br>
-        <div class='fas fa-download'>
-             <input type="button" name='botão de download' value="Download Now!">
+            <button class="btn-text-about" type="submit"><span class='fas fa-download'></span> Download Theme</button>
+             <!-- <input class="btn-text-about"type="button" name='botão de download' value="Download Now!"> -->
         </div>
     </section>
-    <section id="fourth">
-        <h2>CONTACT ME</h2>
+    <section class="fourth">
+        <h2 class="titles">CONTACT ME</h2>
         <div class="star fas fa-star"></div>
         <form action="">
             <input class="form" type="text" name="Name" value="Name"><br>
             <input class="form" type="text" name="Email" value="Email Address"><br>
             <input class="form" type="text" name="Number" value="Phone Number"><br>
             <input class="form" type="text" name="Message" value="Message"><br>
-            <input class="button" type="button" name='botão de enviar' value="Send">
+            <input class="btn" type="button" name='botão de enviar' value="Send">
         </form>
     </section>
-    <section id="fiveth"> 
-        <div class="information">LOCATION</div>
-        <div class="information">AROUND THE WEB</div>
-        <div class="information">ABOUT FREELANCER</div>
-        <div class="information">2215 John Daniel Drive Clark, MO 65243</div>
-        <div class="information">
-            <span class="icon fab fa-facebook-f"></span>
-            <span class="icon fab fa-google-plus-g"></span>
-            <span class="icon fab fa-twitter"></span>
-            <span class="icon fab fa-linkedin-in"></span>
-            <span class="icon fab fa-dribbble"></span>
+    <section class="fiveth"> 
+        <div class="informations">LOCATION</div>
+        <div class="informations">AROUND THE WEB</div>
+        <div class="informations">ABOUT FREELANCER</div>
+        <div class="informations">2215 John Daniel Drive Clark, MO 65243</div>
+        <div class="informations">
+            <span class="icons fab fa-facebook-f"></span>
+            <span class="icons fab fa-google-plus-g"></span>
+            <span class="icons fab fa-twitter"></span>
+            <span class="icons fab fa-linkedin-in"></span>
+            <span class="icons fab fa-dribbble"></span>
         </div>
         <div class="information">Freelance is a free to use, open source Bootstrap theme created by 
-            <span>Start Bootstrap</span>.
+            <span class="information-span">Start Bootstrap</span>.
         </div>
     </section>
-    <section id="end">
+    <section class="end">
         <p>Copyright © Your Website 2018</p>
     </section>
 </body>
